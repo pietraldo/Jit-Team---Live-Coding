@@ -11,6 +11,10 @@
         public int CatAge { get; set; }
         public string CatColor { get; set; }
 
+        public bool Check()
+        {
+            return true;
+        }
     }
 
     public class Person
